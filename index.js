@@ -1,5 +1,6 @@
 var animal = 'dog'
 
+// Should return cat
 function myAnimal() {
   return animal
 }
