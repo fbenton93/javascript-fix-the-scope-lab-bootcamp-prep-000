@@ -1,10 +1,13 @@
 var animal = 'dog'
 
-// Should return cat
+// Should return dog
 function myAnimal() {
   return animal
 }
 
+animal = 'cat'
+
+// Should return cat
 function yourAnimal() {
   // How can we make sure that this function
   // and the above function both pass?
