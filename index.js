@@ -1,11 +1,12 @@
-var animal = 'dog'
+
 
 // Should return dog
 function myAnimal() {
+  var animal = 'dog'
   return animal
 }
 
-animal = 'cat'
+
 
 // Should return cat
 function yourAnimal() {
